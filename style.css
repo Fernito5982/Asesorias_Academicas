@@ -1,0 +1,82 @@
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+.burgerMenu{
+    width: 25px;
+    height: 25px;
+}
+
+.accountUser img,
+.burgerMenu img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.accountUser{
+    width: 50px;
+    height: 50px;
+}
+
+.info_general{
+    width: 100%;
+    display: flex;
+}
+
+.info_profesional,
+.info_personal{
+    width: 50%;
+    height: 655px;
+    margin-top: 60px;
+    margin-left: 11px;
+    border-right: 1px solid gray;
+
+    padding: 20px 60px;
+}
+
+.info_profesional{
+    
+    border: none;
+}
+
+.Contenedor_two{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Contenedor_dias{
+    margin-top: 30px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input_contenedor_two{
+    width: 45%;
+}
+
+.comentarios{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    resize: none;
+    padding: 15px;
+    border-radius: 5px;   
+}
+
+.enviar{
+    background-color: #7749F8;
+}
